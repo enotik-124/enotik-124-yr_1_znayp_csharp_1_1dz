@@ -7,33 +7,36 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-System.Console.WriteLine("Введите числa: ");
-System.Console.Write("а = ");
-double a = Convert.ToDouble(Console.ReadLine());
-System.Console.Write("b = ");
-double b = Convert.ToDouble(Console.ReadLine());
+// System.Console.WriteLine("Введите числa: ");
+// System.Console.Write("а = ");
+// double a = Convert.ToDouble(Console.ReadLine());
+// System.Console.Write("b = ");
+// double b = Convert.ToDouble(Console.ReadLine());
 
-double max, min;
-    if (a > b)
-    {
-        max = a;
-    }
-    else
-    {
-        max = b;
-    }
+// double max, min;
+//     if (a > b)
+//     {
+//         max = a;
+//     }
+//     else
+//     {
+//         max = b;
+//     }
 
 
-        if (a < b)
-    {
-        min = a;
-    }
-    else
-    {
-        min = b;
-    }
-Console.WriteLine($"Максимальное значение: {max}");
-Console.WriteLine($"Минимальное значение: {min}");
+//         if (a < b)
+//     {
+//         min = a;
+//     }
+//     else
+//     {
+//         min = b;
+//     }
+// Console.WriteLine($"Максимальное значение: {max}");
+// Console.WriteLine($"Минимальное значение: {min}");
+
+
+
 
 //                                                         Задача 4: 
 // Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
@@ -66,3 +69,22 @@ Console.WriteLine($"Минимальное значение: {min}");
 // Console.WriteLine($"Максимальное значение: {max}");
 
 
+
+
+//                                                             Задача 6 
+// Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+// 4 -> да
+// -3 -> нет
+// 7 -> нет
+
+
+// System.Console.Write("а = ");
+// int a = Convert.ToInt32(Console.ReadLine());
+//     if (a  % 2 == 0)
+//     {
+//         System.Console.WriteLine ($"Число {a} делится на 2 без остатка -> четное");
+//     }
+//     else
+//      {
+//         System.Console.WriteLine ($"Число {a} не делится на 2 без остатка -> нечетное");
+//     }
